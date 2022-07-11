@@ -1,0 +1,296 @@
+﻿  Compiling CUDA source file bvh.h...
+  Compiling CUDA source file camera.h...
+  Compiling CUDA source file material.h...
+  Compiling CUDA source file parallel.cu...
+  
+  D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x64" -x cu -rdc=true  -ID:\ZJUfile\G1\GPU\cuda_by_example\common -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\camera.h.obj "D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\camera.h" 
+  
+  D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x64" -x cu -rdc=true  -ID:\ZJUfile\G1\GPU\cuda_by_example\common -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\parallel.cu.obj "D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\parallel.cu" 
+  
+  D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x64" -x cu -rdc=true  -ID:\ZJUfile\G1\GPU\cuda_by_example\common -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\bvh.h.obj "D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\bvh.h" 
+  
+  D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x64" -x cu -rdc=true  -ID:\ZJUfile\G1\GPU\cuda_by_example\common -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\material.h.obj "D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\material.h" 
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\common.h(28): warning C4005: “__CUDACC__”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(127): warning C4005: “CALLBACK”: 宏重定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\common.h(28): warning C4005: “__CUDACC__”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(127): warning C4005: “CALLBACK”: 宏重定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\common.h(28): warning C4005: “__CUDACC__”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(127): warning C4005: “CALLBACK”: 宏重定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\common.h(28): warning C4005: “__CUDACC__”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(127): warning C4005: “CALLBACK”: 宏重定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(162): warning : missing return statement at end of non-void function "Vec3::operator[]"
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(256): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(257): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(301): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(302): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(314): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(315): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(162): warning : missing return statement at end of non-void function "Vec3::operator[]"
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(256): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(257): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(301): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(162): warning : missing return statement at end of non-void function "Vec3::operator[]"
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(302): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(256): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(257): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(314): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(301): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(302): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(314): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(315): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(315): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\pdf.h(6): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\pdf.h(7): warning : a storage class may not be specified here
+  
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/material.h(9): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\triangle.h(13): warning : integer conversion resulted in a change of sign
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\mesh.h(7): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\mesh.h(8): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\pdf.h(6): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\pdf.h(7): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\material.h(9): warning : a storage class may not be specified here
+  
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/bvh.h(38): warning : __host__ annotation is ignored on a function("Node") that is explicitly defaulted on its first declaration
+  
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/bvh.h(38): warning : __device__ annotation is ignored on a function("Node") that is explicitly defaulted on its first declaration
+  
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/bvh.h(66): warning : __host__ annotation is ignored on a function("BVH") that is explicitly defaulted on its first declaration
+  
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/bvh.h(66): warning : __device__ annotation is ignored on a function("BVH") that is explicitly defaulted on its first declaration
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(162): warning : missing return statement at end of non-void function "Vec3::operator[]"
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(256): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(257): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(301): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(302): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(314): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(315): warning : calling a __host__ function from a __host__ __device__ function is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\triangle.h(13): warning : integer conversion resulted in a change of sign
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\mesh.h(7): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\mesh.h(8): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\pdf.h(6): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\pdf.h(7): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\material.h(9): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\bvh.h(38): warning : __host__ annotation is ignored on a function("Node") that is explicitly defaulted on its first declaration
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\bvh.h(38): warning : __device__ annotation is ignored on a function("Node") that is explicitly defaulted on its first declaration
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\bvh.h(66): warning : __host__ annotation is ignored on a function("BVH") that is explicitly defaulted on its first declaration
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\bvh.h(66): warning : __device__ annotation is ignored on a function("BVH") that is explicitly defaulted on its first declaration
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\stb_image.h(4152): warning : variable "old_limit" was set but never used
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\stb_image.h(5038): warning : variable "idata_limit_old" was set but never used
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\stb_image.h(6778): warning : variable "out_size" was set but never used
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\stb_image.h(6779): warning : variable "delays_size" was set but never used
+  
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/parallel.cu(530): warning : a __device__ function("GPU_DataSet::light_color") redeclared without __device__, hence treated as a __host__ __device__ function
+  
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/parallel.cu(932): warning : variable "w" was declared but never referenced
+  
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/parallel.cu(894): warning : variable "needStop" was declared but never referenced
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\common.h(28): warning C4005: “__CUDACC__”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(127): warning C4005: “CALLBACK”: 宏重定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\common.h(28): warning C4005: “__CUDACC__”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(127): warning C4005: “CALLBACK”: 宏重定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\common.h(28): warning C4005: “__CUDACC__”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(127): warning C4005: “CALLBACK”: 宏重定义
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/parallel.cu(614): warning : calling a __host__ function("cudaDestroyTextureObject") from a __host__ __device__ function("GPU_DataSet::deleteMySelf") is not allowed
+  
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/parallel.cu(617): warning : calling a __host__ function("cudaDestroyTextureObject") from a __host__ __device__ function("GPU_DataSet::deleteMySelf") is not allowed
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(162): warning : missing return statement at end of non-void function "Vec3::operator[]"
+  
+  camera.h
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(162): warning : missing return statement at end of non-void function "Vec3::operator[]"
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\pdf.h(6): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\pdf.h(7): warning : a storage class may not be specified here
+  
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/material.h(9): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(162): warning : missing return statement at end of non-void function "Vec3::operator[]"
+  
+  material.h
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\triangle.h(13): warning : integer conversion resulted in a change of sign
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\mesh.h(7): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\mesh.h(8): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\pdf.h(6): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\pdf.h(7): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\material.h(9): warning : a storage class may not be specified here
+  
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/bvh.h(38): warning : __host__ annotation is ignored on a function("Node") that is explicitly defaulted on its first declaration
+  
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/bvh.h(38): warning : __device__ annotation is ignored on a function("Node") that is explicitly defaulted on its first declaration
+  
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/bvh.h(66): warning : __host__ annotation is ignored on a function("BVH") that is explicitly defaulted on its first declaration
+  
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/bvh.h(66): warning : __device__ annotation is ignored on a function("BVH") that is explicitly defaulted on its first declaration
+  
+  bvh.h
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\common.h(28): warning C4005: “__CUDACC__”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(127): warning C4005: “CALLBACK”: 宏重定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(162): warning : missing return statement at end of non-void function "Vec3::operator[]"
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\triangle.h(13): warning : integer conversion resulted in a change of sign
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\mesh.h(7): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\mesh.h(8): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\pdf.h(6): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\pdf.h(7): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\material.h(9): warning : a storage class may not be specified here
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\bvh.h(38): warning : __host__ annotation is ignored on a function("Node") that is explicitly defaulted on its first declaration
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\bvh.h(38): warning : __device__ annotation is ignored on a function("Node") that is explicitly defaulted on its first declaration
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\bvh.h(66): warning : __host__ annotation is ignored on a function("BVH") that is explicitly defaulted on its first declaration
+  
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\bvh.h(66): warning : __device__ annotation is ignored on a function("BVH") that is explicitly defaulted on its first declaration
+  
+  parallel.cu
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/parallel.cu(367): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/parallel.cu(368): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/parallel.cu(377): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/parallel.cu(378): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/parallel.cu(406): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/parallel.cu(406): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/parallel.cu(423): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:/ZJUfile/G1/CG/CGHW2/CGHW2/Project1/parallel.cu(784): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\vec.h(162): warning C4715: “Vec3::operator[]”: 不是所有的控件路径都返回值
+  camera.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(127,1): warning C4005: “CALLBACK”: 宏重定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\include\common\GL\glut.h(34): message : 参见“CALLBACK”的前一个定义
+  image.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(127,1): warning C4005: “CALLBACK”: 宏重定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\include\common\GL\glut.h(34): message : 参见“CALLBACK”的前一个定义
+  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(127,1): warning C4005: “CALLBACK”: 宏重定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\include\common\GL\glut.h(34): message : 参见“CALLBACK”的前一个定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\mesh.h(7,22): warning C4091: “extern ”: 没有声明变量时忽略“OCTnode”的左侧
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\mesh.h(8,20): warning C4091: “extern ”: 没有声明变量时忽略“OCTree”的左侧
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\pdf.h(6,25): warning C4091: “extern ”: 没有声明变量时忽略“hit_record”的左侧
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\pdf.h(7,25): warning C4091: “extern ”: 没有声明变量时忽略“GPU_DataSet”的左侧
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\material.h(9,22): warning C4091: “extern ”: 没有声明变量时忽略“Material”的左侧
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\main.cpp(88,17): warning C4101: “end”: 未引用的局部变量
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\main.cpp(88,10): warning C4101: “start”: 未引用的局部变量
+  material.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(127,1): warning C4005: “CALLBACK”: 宏重定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\include\common\GL\glut.h(34): message : 参见“CALLBACK”的前一个定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\pdf.h(6,25): warning C4091: “extern ”: 没有声明变量时忽略“hit_record”的左侧
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\pdf.h(7,25): warning C4091: “extern ”: 没有声明变量时忽略“GPU_DataSet”的左侧
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\material.h(9,22): warning C4091: “extern ”: 没有声明变量时忽略“Material”的左侧
+  mesh.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(127,1): warning C4005: “CALLBACK”: 宏重定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\include\common\GL\glut.h(34): message : 参见“CALLBACK”的前一个定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\mesh.h(7,22): warning C4091: “extern ”: 没有声明变量时忽略“OCTnode”的左侧
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\mesh.h(8,20): warning C4091: “extern ”: 没有声明变量时忽略“OCTree”的左侧
+  model.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(127,1): warning C4005: “CALLBACK”: 宏重定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\include\common\GL\glut.h(34): message : 参见“CALLBACK”的前一个定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\mesh.h(7,22): warning C4091: “extern ”: 没有声明变量时忽略“OCTnode”的左侧
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\mesh.h(8,20): warning C4091: “extern ”: 没有声明变量时忽略“OCTree”的左侧
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\pdf.h(6,25): warning C4091: “extern ”: 没有声明变量时忽略“hit_record”的左侧
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\pdf.h(7,25): warning C4091: “extern ”: 没有声明变量时忽略“GPU_DataSet”的左侧
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\material.h(9,22): warning C4091: “extern ”: 没有声明变量时忽略“Material”的左侧
+  octree.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(127,1): warning C4005: “CALLBACK”: 宏重定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\include\common\GL\glut.h(34): message : 参见“CALLBACK”的前一个定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\mesh.h(7,22): warning C4091: “extern ”: 没有声明变量时忽略“OCTnode”的左侧
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\mesh.h(8,20): warning C4091: “extern ”: 没有声明变量时忽略“OCTree”的左侧
+  raytracer.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(127,1): warning C4005: “CALLBACK”: 宏重定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\include\common\GL\glut.h(34): message : 参见“CALLBACK”的前一个定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\mesh.h(7,22): warning C4091: “extern ”: 没有声明变量时忽略“OCTnode”的左侧
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\mesh.h(8,20): warning C4091: “extern ”: 没有声明变量时忽略“OCTree”的左侧
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\pdf.h(6,25): warning C4091: “extern ”: 没有声明变量时忽略“hit_record”的左侧
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\pdf.h(7,25): warning C4091: “extern ”: 没有声明变量时忽略“GPU_DataSet”的左侧
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\material.h(9,22): warning C4091: “extern ”: 没有声明变量时忽略“Material”的左侧
+  shader.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(127,1): warning C4005: “CALLBACK”: 宏重定义
+D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1\include\common\GL\glut.h(34): message : 参见“CALLBACK”的前一个定义
+  正在生成代码...
+  
+  D:\ZJUfile\G1\CG\CGHW2\CGHW2\Project1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -dlink -o x64\Debug\Render.device-link.obj -Xcompiler "/EHsc /W3 /nologo /Od /Zi /Fdx64\Debug\vc142.pdb /RTC1 /MDd " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin/crt" -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\lib\x64" SDL2test.lib SDL2main.lib SDL2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cudart.lib cudadevrt.lib  -gencode=arch=compute_52,code=sm_52 -G --machine 64 x64\Debug\box.h.obj x64\Debug\bvh.h.obj x64\Debug\camera.h.obj x64\Debug\common.h.obj x64\Debug\material.h.obj x64\Debug\onb.h.obj x64\Debug\pdf.h.obj x64\Debug\vec.h.obj x64\Debug\parallel.cu.obj 
+  SDL2test.lib
+  SDL2main.lib
+  SDL2.lib
+  kernel32.lib
+  user32.lib
+  gdi32.lib
+  winspool.lib
+  comdlg32.lib
+  advapi32.lib
+  shell32.lib
+  ole32.lib
+  oleaut32.lib
+  uuid.lib
+  odbc32.lib
+  odbccp32.lib
+  cudart.lib
+  cudadevrt.lib
+  box.h.obj
+  bvh.h.obj
+  camera.h.obj
+  common.h.obj
+  material.h.obj
+  onb.h.obj
+  pdf.h.obj
+  vec.h.obj
+  parallel.cu.obj
+  Project1.vcxproj -> D:\ZJUfile\G1\CG\CGHW2\CGHW2\x64\Debug\Render.exe

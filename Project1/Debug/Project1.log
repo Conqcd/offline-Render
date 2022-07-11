@@ -1,0 +1,87 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(Project1.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  image.cpp
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\image.cpp(421,31): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=double
+          ]
+          and
+          [
+              _Tp=uchar
+          ]
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\image.cpp(422,31): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=double
+          ]
+          and
+          [
+              _Tp=uchar
+          ]
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\image.cpp(423,31): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=double
+          ]
+          and
+          [
+              _Tp=uchar
+          ]
+  main.cpp
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\hierarchyZbuffer.h(152,17): warning C4018: “<”: 有符号/无符号不匹配
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\Matrix.h(104,17): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\camera.h(119,93): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\camera.h(119,57): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\camera.h(119,31): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  mesh.cpp
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\hierarchyZbuffer.h(152,17): warning C4018: “<”: 有符号/无符号不匹配
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\Matrix.h(104,17): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\mesh.cpp(39,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\mesh.cpp(47,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\mesh.cpp(54,20): warning C4018: “<”: 有符号/无符号不匹配
+  model.cpp
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\hierarchyZbuffer.h(152,17): warning C4018: “<”: 有符号/无符号不匹配
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\Matrix.h(104,17): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\camera.h(119,93): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\camera.h(119,57): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\camera.h(119,31): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\model.cpp(46,10): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“std::string”
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\model.cpp(90,35): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\model.cpp(90,32): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\model.cpp(90,29): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\model.cpp(96,32): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\model.cpp(96,29): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\model.cpp(102,34): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\model.cpp(102,31): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\model.cpp(102,28): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\model.cpp(89,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\model.cpp(95,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\model.cpp(101,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\model.cpp(109,4): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  octree.cpp
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\hierarchyZbuffer.h(152,17): warning C4018: “<”: 有符号/无符号不匹配
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\Matrix.h(104,17): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  shader.cpp
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\hierarchyZbuffer.h(152,17): warning C4018: “<”: 有符号/无符号不匹配
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\shader.cpp(55,54): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\shader.cpp(55,43): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\shader.cpp(55,32): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\shader.cpp(55,21): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\shader.cpp(66,38): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\shader.cpp(66,26): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\shader.cpp(75,29): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\shader.cpp(75,24): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\shader.cpp(90,47): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\shader.cpp(90,38): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\shader.cpp(91,11): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\shader.cpp(91,27): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\shader.cpp(91,47): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\shader.cpp(91,67): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\shader.cpp(95,26): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\shader.cpp(96,44): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\shader.cpp(96,42): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\shader.cpp(106,17): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\shader.cpp(106,33): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\ZJUfile\G1\CG\tinyrender\Project1\Project1\shader.cpp(108,26): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+  正在生成代码...
+opencv_world450.lib(opencv_world450.dll) : fatal error LNK1112: 模块计算机类型“x64”与目标计算机类型“x86”冲突
