@@ -13,7 +13,7 @@
 
 ![image-20220601140032473](https://github.com/Conqcd/offline-Render/blob/main/images/new_car_day.png)
 1024 spp
-![image-20220601140032473](https://github.com/Conqcd/offline-Render/blob/main/images/new_car_dust.png)
+![image-20220601140032473](https://github.com/Conqcd/offline-Render/blob/main/images/new_car_dusk.png)
 1024 spp
 ![image-20220601140032473](https://github.com/Conqcd/offline-Render/blob/main/images/new_diningroom.png)
 1024 spp
